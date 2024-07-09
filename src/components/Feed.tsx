@@ -15,7 +15,7 @@ const Feed: React.FC = () => {
       username: "",
     },
   ]);
-
+ 
   useEffect(() => {
     const unSub = db
       .collection("posts")
